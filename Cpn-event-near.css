@@ -1,0 +1,92 @@
+.envent-title{
+    display: flex;
+    width: 1039px;
+    justify-content: space-between;
+    margin: auto;
+}
+.envent-title .name{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.envent-title .seeall .link{
+    position: relative;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: -35px;
+
+}
+.envent-title:hover .seeall{
+    text-decoration: underline;
+}
+
+
+
+.content{
+    display: flex;
+    width: 1039px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:auto;
+}
+.event{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+    height: 140px;
+    
+}
+.event .anh{
+    border-radius:5%;
+    width: 100%;
+ 
+}
+.event .datemonth{
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: #877457;
+    font-size: 14px;
+}
+.event .adress{
+    font-weight: 500;
+    color:#2E3E48;
+    font-size: 16px;
+    margin-top: 5px;
+
+}
+.event .title{
+    color: #757575;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.event .take-part-in{
+    display: flex;
+}
+.event .take-part-in .avatar {
+        position: relative;
+        right: 10px;
+}
+.event .take-part-in .avatar .avata1,.avata2,.avata3{
+    width: 50px;
+    height: 50px;
+    clip-path: circle(15px at 50% 50%);
+    
+}
+.event .take-part-in .avatar .avata2{
+    position: relative;
+    right:35px ; 
+    
+}
+.event .take-part-in .avatar .avata3{
+    position: relative;
+    right:70px ; 
+    
+}
+
+.event .take-part-in .number{
+    color: #757575;
+    font-size: 16px;
+    position: relative;
+    right: 85px;
+    bottom: -20px;
+}
+
+
