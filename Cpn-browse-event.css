@@ -1,0 +1,35 @@
+.content{
+    display: flex;
+    width: 1060px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.nameevent h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 13.5rem;
+    margin-bottom: 2rem;
+}
+.card {
+    background-color:white;  
+    width: 318px;
+    height: 50px; 
+    border-radius: 10px ;
+    display: flex;
+    box-shadow: .2px .2px 4px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+    transition: 0.2;
+}
+.card:hover {
+    box-shadow: .2px .2px 8px rgba(0, 0, 0, .5);
+}
+.card .anh{
+    width: 88.89px;
+    height: 50px; 
+    border-radius: 10px 0 0 10px;
+    
+}
+.card .title{
+    margin-left: 2rem;  
+}

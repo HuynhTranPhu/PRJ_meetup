@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(39, 32, 32);
+    color: white;
+}
+.content .head {
+    margin-top: 2rem;
+    font-size: 20px;
+    display: flex;
+    position: relative;
+}
+.content .head p{
+    font-weight: 700;
+    position: absolute;
+    margin-left: 18rem;
+}
+.content .head span{
+    position:absolute;  
+    font-size: 16px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 38rem;
+    margin-top: 0.5rem;
+}
+.content hr{
+    margin-top: 5rem;
+}
+.content .list-item{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 250px;
+}
+.content .flow {
+    margin-top: 50px;  
+    margin-left: 290px;
+}
+.content .foot{
+    margin-top: 80px;
+    margin-left: 280px;
+}
+.content .foot span{
+    padding: 10px;
+}
+.content .icon .left{
+    margin-top: 30px;
+    margin-left: 290px;
+}
+.content .icon .left i{
+    padding: 10px;
+}
+.content .icon {
+    display: flex   ;
+    position: relative;
+}
+.content .icon .left {
+    position: absolute;
+    
+}
+.content .icon .right {
+    margin-left: 73rem;
+    position: absolute;
+}
+.content .icon .right i{
+    
+    padding: 10px;
+}
