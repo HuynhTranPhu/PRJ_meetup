@@ -1,20 +1,21 @@
-body{
+.content-footer{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(39, 32, 32);
+    background-color: rgb(37, 35, 35);
     color: white;
+    padding: 10px;
 }
-.content .head {
+.content-footer .head {
     margin-top: 2rem;
     font-size: 20px;
     display: flex;
     position: relative;
 }
-.content .head p{
+.content-footer .head p{
     font-weight: 700;
     position: absolute;
     margin-left: 18rem;
 }
-.content .head span{
+.content-footer .head span{
     position:absolute;  
     font-size: 16px;
     border: 2px solid white;
@@ -23,46 +24,46 @@ body{
     margin-left: 38rem;
     margin-top: 0.5rem;
 }
-.content hr{
+.content-footer hr{
     margin-top: 5rem;
 }
-.content .list-item{
+.content-footer .list-item{
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 250px;
 }
-.content .flow {
+.content-footer .flow {
     margin-top: 50px;  
     margin-left: 290px;
 }
-.content .foot{
+.content-footer .foot{
     margin-top: 80px;
     margin-left: 280px;
 }
-.content .foot span{
+.content-footer .foot span{
     padding: 10px;
 }
-.content .icon .left{
+.content-footer .icon .left{
     margin-top: 30px;
     margin-left: 290px;
 }
-.content .icon .left i{
+.content-footer .icon .left i{
     padding: 10px;
 }
-.content .icon {
+.content-footer .icon {
     display: flex   ;
     position: relative;
 }
-.content .icon .left {
+.content-footer .icon .left {
     position: absolute;
     
 }
-.content .icon .right {
+.content-footer .icon .right {
     margin-left: 73rem;
     position: absolute;
 }
-.content .icon .right i{
+.content-footer .icon .right i{
     
     padding: 10px;
 }
